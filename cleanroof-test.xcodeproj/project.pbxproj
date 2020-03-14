@@ -3,17 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13D288928F149D9961DD8ABF /* Pods_cleanroof_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEF96A073ED96E7FDB2AAA8 /* Pods_cleanroof_test.framework */; };
 		2EFAB1E724194D220058DCB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB1E624194D220058DCB4 /* AppDelegate.swift */; };
-		2EFAB1E924194D220058DCB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB1E824194D220058DCB4 /* SceneDelegate.swift */; };
-		2EFAB1EB24194D220058DCB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB1EA24194D220058DCB4 /* ViewController.swift */; };
-		2EFAB1EE24194D220058DCB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFAB1EC24194D220058DCB4 /* Main.storyboard */; };
 		2EFAB1F024194D270058DCB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFAB1EF24194D270058DCB4 /* Assets.xcassets */; };
 		2EFAB1F324194D270058DCB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFAB1F124194D270058DCB4 /* LaunchScreen.storyboard */; };
 		2EFAB1FE24194D270058DCB4 /* cleanroof_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB1FD24194D270058DCB4 /* cleanroof_testTests.swift */; };
+		2EFAB20C241957A30058DCB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EFAB20B241957A30058DCB4 /* GoogleService-Info.plist */; };
+		2EFAB210241963A40058DCB4 /* DeviceListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB20E241963A40058DCB4 /* DeviceListVC.swift */; };
+		2EFAB211241963A40058DCB4 /* DeviceListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFAB20F241963A40058DCB4 /* DeviceListVC.xib */; };
+		2EFAB216241ACEC60058DCB4 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB215241ACEC60058DCB4 /* Device.swift */; };
+		2EFAB21A241ADA410058DCB4 /* DeviceListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB219241ADA410058DCB4 /* DeviceListVM.swift */; };
+		2EFAB21E241ADF680058DCB4 /* DeviceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB21C241ADF680058DCB4 /* DeviceListTableViewCell.swift */; };
+		2EFAB21F241ADF680058DCB4 /* DeviceListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFAB21D241ADF680058DCB4 /* DeviceListTableViewCell.xib */; };
+		2EFAB221241AE11B0058DCB4 /* DeviceListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB220241AE11B0058DCB4 /* DeviceListCellModel.swift */; };
+		2EFAB224241C0FF80058DCB4 /* DatabaseQuery+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB223241C0FF80058DCB4 /* DatabaseQuery+Rx.swift */; };
+		2EFAB226241C4AF70058DCB4 /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB225241C4AF70058DCB4 /* DeviceList.swift */; };
+		F7A49E0677B0DD715DD5954A /* Pods_cleanroof_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3272AA417048C9DB593DABFC /* Pods_cleanroof_testTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +36,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02910266EC49778F7659EBCF /* Pods-cleanroof-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleanroof-test.debug.xcconfig"; path = "Target Support Files/Pods-cleanroof-test/Pods-cleanroof-test.debug.xcconfig"; sourceTree = "<group>"; };
+		105FF58F78EB1037D4C2EDBD /* Pods-cleanroof-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleanroof-testTests.debug.xcconfig"; path = "Target Support Files/Pods-cleanroof-testTests/Pods-cleanroof-testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2EFAB1E324194D220058DCB4 /* cleanroof-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cleanroof-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFAB1E624194D220058DCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EFAB1E824194D220058DCB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EFAB1EA24194D220058DCB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2EFAB1ED24194D220058DCB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EFAB1EF24194D270058DCB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EFAB1F224194D270058DCB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EFAB1F424194D270058DCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EFAB1F924194D270058DCB4 /* cleanroof-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cleanroof-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFAB1FD24194D270058DCB4 /* cleanroof_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleanroof_testTests.swift; sourceTree = "<group>"; };
 		2EFAB1FF24194D270058DCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFAB20B241957A30058DCB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2EFAB20E241963A40058DCB4 /* DeviceListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListVC.swift; sourceTree = "<group>"; };
+		2EFAB20F241963A40058DCB4 /* DeviceListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceListVC.xib; sourceTree = "<group>"; };
+		2EFAB215241ACEC60058DCB4 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		2EFAB219241ADA410058DCB4 /* DeviceListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListVM.swift; sourceTree = "<group>"; };
+		2EFAB21C241ADF680058DCB4 /* DeviceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListTableViewCell.swift; sourceTree = "<group>"; };
+		2EFAB21D241ADF680058DCB4 /* DeviceListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceListTableViewCell.xib; sourceTree = "<group>"; };
+		2EFAB220241AE11B0058DCB4 /* DeviceListCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListCellModel.swift; sourceTree = "<group>"; };
+		2EFAB223241C0FF80058DCB4 /* DatabaseQuery+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DatabaseQuery+Rx.swift"; sourceTree = "<group>"; };
+		2EFAB225241C4AF70058DCB4 /* DeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceList.swift; sourceTree = "<group>"; };
+		3272AA417048C9DB593DABFC /* Pods_cleanroof_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cleanroof_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD03CD2F964AD22B7E8E6B /* Pods-cleanroof-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleanroof-test.release.xcconfig"; path = "Target Support Files/Pods-cleanroof-test/Pods-cleanroof-test.release.xcconfig"; sourceTree = "<group>"; };
+		AFEF96A073ED96E7FDB2AAA8 /* Pods_cleanroof_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cleanroof_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D88CE1018468E71FCC970A /* Pods-cleanroof-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleanroof-testTests.release.xcconfig"; path = "Target Support Files/Pods-cleanroof-testTests/Pods-cleanroof-testTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D288928F149D9961DD8ABF /* Pods_cleanroof_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A49E0677B0DD715DD5954A /* Pods_cleanroof_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +88,8 @@
 				2EFAB1E524194D220058DCB4 /* cleanroof-test */,
 				2EFAB1FC24194D270058DCB4 /* cleanroof-testTests */,
 				2EFAB1E424194D220058DCB4 /* Products */,
+				7C002ED26A164D60FECE1568 /* Pods */,
+				6BEDA168D3670BD6DD6A5CD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +105,8 @@
 		2EFAB1E524194D220058DCB4 /* cleanroof-test */ = {
 			isa = PBXGroup;
 			children = (
-				2EFAB1E624194D220058DCB4 /* AppDelegate.swift */,
-				2EFAB1E824194D220058DCB4 /* SceneDelegate.swift */,
-				2EFAB1EA24194D220058DCB4 /* ViewController.swift */,
-				2EFAB1EC24194D220058DCB4 /* Main.storyboard */,
-				2EFAB1EF24194D270058DCB4 /* Assets.xcassets */,
-				2EFAB1F124194D270058DCB4 /* LaunchScreen.storyboard */,
-				2EFAB1F424194D270058DCB4 /* Info.plist */,
+				2EFAB209241954240058DCB4 /* Sources */,
+				2EFAB20824194D4F0058DCB4 /* Resources */,
 			);
 			path = "cleanroof-test";
 			sourceTree = "<group>";
@@ -99,6 +120,102 @@
 			path = "cleanroof-testTests";
 			sourceTree = "<group>";
 		};
+		2EFAB20824194D4F0058DCB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAB20B241957A30058DCB4 /* GoogleService-Info.plist */,
+				2EFAB1F424194D270058DCB4 /* Info.plist */,
+				2EFAB1F124194D270058DCB4 /* LaunchScreen.storyboard */,
+				2EFAB1EF24194D270058DCB4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2EFAB209241954240058DCB4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAB227241CE9250058DCB4 /* Flow */,
+				2EFAB222241AF67E0058DCB4 /* Extensions */,
+				2EFAB217241AD3B20058DCB4 /* AppDelegate */,
+				2EFAB214241ACEB50058DCB4 /* Models */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2EFAB20D241963540058DCB4 /* DeviceList */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAB21B241ADF410058DCB4 /* Cell */,
+				2EFAB20E241963A40058DCB4 /* DeviceListVC.swift */,
+				2EFAB20F241963A40058DCB4 /* DeviceListVC.xib */,
+				2EFAB219241ADA410058DCB4 /* DeviceListVM.swift */,
+			);
+			path = DeviceList;
+			sourceTree = "<group>";
+		};
+		2EFAB214241ACEB50058DCB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAB215241ACEC60058DCB4 /* Device.swift */,
+				2EFAB225241C4AF70058DCB4 /* DeviceList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EFAB217241AD3B20058DCB4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAB1E624194D220058DCB4 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2EFAB21B241ADF410058DCB4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAB21C241ADF680058DCB4 /* DeviceListTableViewCell.swift */,
+				2EFAB21D241ADF680058DCB4 /* DeviceListTableViewCell.xib */,
+				2EFAB220241AE11B0058DCB4 /* DeviceListCellModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2EFAB222241AF67E0058DCB4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAB223241C0FF80058DCB4 /* DatabaseQuery+Rx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2EFAB227241CE9250058DCB4 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAB20D241963540058DCB4 /* DeviceList */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		6BEDA168D3670BD6DD6A5CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFEF96A073ED96E7FDB2AAA8 /* Pods_cleanroof_test.framework */,
+				3272AA417048C9DB593DABFC /* Pods_cleanroof_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C002ED26A164D60FECE1568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02910266EC49778F7659EBCF /* Pods-cleanroof-test.debug.xcconfig */,
+				66DD03CD2F964AD22B7E8E6B /* Pods-cleanroof-test.release.xcconfig */,
+				105FF58F78EB1037D4C2EDBD /* Pods-cleanroof-testTests.debug.xcconfig */,
+				D6D88CE1018468E71FCC970A /* Pods-cleanroof-testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EFAB20224194D270058DCB4 /* Build configuration list for PBXNativeTarget "cleanroof-test" */;
 			buildPhases = (
+				8C59DBA742DFFD0CCD4E109F /* [CP] Check Pods Manifest.lock */,
 				2EFAB1DF24194D220058DCB4 /* Sources */,
 				2EFAB1E024194D220058DCB4 /* Frameworks */,
 				2EFAB1E124194D220058DCB4 /* Resources */,
+				75302448E3098E2E750D150C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EFAB20524194D270058DCB4 /* Build configuration list for PBXNativeTarget "cleanroof-testTests" */;
 			buildPhases = (
+				9775BC3279177D8C44A47C01 /* [CP] Check Pods Manifest.lock */,
 				2EFAB1F524194D270058DCB4 /* Sources */,
 				2EFAB1F624194D270058DCB4 /* Frameworks */,
 				2EFAB1F724194D270058DCB4 /* Resources */,
@@ -181,8 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EFAB1F324194D270058DCB4 /* LaunchScreen.storyboard in Resources */,
+				2EFAB20C241957A30058DCB4 /* GoogleService-Info.plist in Resources */,
 				2EFAB1F024194D270058DCB4 /* Assets.xcassets in Resources */,
-				2EFAB1EE24194D220058DCB4 /* Main.storyboard in Resources */,
+				2EFAB211241963A40058DCB4 /* DeviceListVC.xib in Resources */,
+				2EFAB21F241ADF680058DCB4 /* DeviceListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +317,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75302448E3098E2E750D150C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cleanroof-test/Pods-cleanroof-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cleanroof-test/Pods-cleanroof-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cleanroof-test/Pods-cleanroof-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C59DBA742DFFD0CCD4E109F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cleanroof-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9775BC3279177D8C44A47C01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cleanroof-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EFAB1DF24194D220058DCB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EFAB1EB24194D220058DCB4 /* ViewController.swift in Sources */,
+				2EFAB221241AE11B0058DCB4 /* DeviceListCellModel.swift in Sources */,
 				2EFAB1E724194D220058DCB4 /* AppDelegate.swift in Sources */,
-				2EFAB1E924194D220058DCB4 /* SceneDelegate.swift in Sources */,
+				2EFAB21A241ADA410058DCB4 /* DeviceListVM.swift in Sources */,
+				2EFAB210241963A40058DCB4 /* DeviceListVC.swift in Sources */,
+				2EFAB216241ACEC60058DCB4 /* Device.swift in Sources */,
+				2EFAB224241C0FF80058DCB4 /* DatabaseQuery+Rx.swift in Sources */,
+				2EFAB21E241ADF680058DCB4 /* DeviceListTableViewCell.swift in Sources */,
+				2EFAB226241C4AF70058DCB4 /* DeviceList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +416,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2EFAB1EC24194D220058DCB4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EFAB1ED24194D220058DCB4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2EFAB1F124194D270058DCB4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +543,7 @@
 		};
 		2EFAB20324194D270058DCB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02910266EC49778F7659EBCF /* Pods-cleanroof-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +562,7 @@
 		};
 		2EFAB20424194D270058DCB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DD03CD2F964AD22B7E8E6B /* Pods-cleanroof-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +581,7 @@
 		};
 		2EFAB20624194D270058DCB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105FF58F78EB1037D4C2EDBD /* Pods-cleanroof-testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +604,7 @@
 		};
 		2EFAB20724194D270058DCB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D88CE1018468E71FCC970A /* Pods-cleanroof-testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
